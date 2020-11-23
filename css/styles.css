@@ -1,6 +1,6 @@
-/*===================================
-  Universal Styling
-*=====================================*/
+/*
+  universal
+*/
 * {
   padding: 0;
   margin: 0;
@@ -13,9 +13,9 @@
     max-width: 1000px;
     margin: 0 auto;
 }
-/*===================================
-  Header Styling
-*=====================================*/
+/*
+header
+*/
 header {
     text-align: center;
     background: rgb(111 122 195 / .5);
