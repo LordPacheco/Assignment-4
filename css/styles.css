@@ -13,20 +13,13 @@
     max-width: 1000px;
     margin: 0 auto;
 }
-
-h2 {
-    text-transform: uppercase;
-    font-size: 48px;
-}
-
-
 /*===================================
   Header Styling
 *=====================================*/
 header {
     text-align: center;
     background: rgb(111 122 195 / .5);
-    padding: 10px 0;
+    padding: 30px 0;
     position: fixed;
     width: 100%;
     z-index: 9999999;
@@ -48,24 +41,65 @@ header nav ul li {
 .team-division {
     background: url('../images/BG.jpg') center/cover no-repeat fixed ;
     position: relative;
-    min-height: 80vh;
     z-index: 1;
 }
 
 .team-division img {
     max-width: 800px;
-    margin-left: 625px;
-    margin-top: 100px;
-    display: block;
+    margin-left: 270px;
+    margin-top: 0px;
 }
 .division-content {
     position: absolute;
-    top: 40%;
-    right: 920px;
+    top: 56%;
+    right: 570px;
     color: white;
     text-shadow: 1px 1px 4px black
 }
 
 .division-content h1 {
     font-size: 64px;
+    text-align: inherit;
+}
+
+.who {
+  color: #eae41d;
+  text-shadow: 1px 1px 4px black;
+  font-size: 50px;
+}
+.americas-team{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #3586ff;
+  overflow: hidden;
+}
+.americas-team .wave{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url('../images/wave.png');
+  background-size: 1000px 100px;
+}
+.americas-team .wave.wave1{
+  animation: animate 30s linear infinite
+}
+@keyframes animate  {
+  0%
+  {
+    background-position-x: 0;
+  }
+  100%
+  {
+    background-position-x: 1000px;
+  }
+}
+.americas-team img{
+  float: left;
+}
+
+.first:hover {
+  background: yellow
 }
