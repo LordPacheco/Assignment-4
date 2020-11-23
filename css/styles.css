@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   border: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   box-sizing: border-box;
 }
 
@@ -25,15 +25,15 @@ h2 {
 *=====================================*/
 header {
     text-align: center;
-    background: rgb(0 0 0 / .5);
-    padding: 30px 0;
+    background: rgb(111 122 195 / .5);
+    padding: 10px 0;
     position: fixed;
     width: 100%;
     z-index: 9999999;
 }
 
 header a {
-    font-weight: bold;
+    font-weight: bolder;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
@@ -42,4 +42,18 @@ header a {
 
 header nav ul li {
     display: inline;
+}
+
+
+.team-division {
+    background: url('../images/BG.jpg') center/cover no-repeat fixed ;
+    position: relative;
+    min-height: 80vh;
+    z-index: 1;
+}
+
+.team-division img {
+    max-width: 800px;
+    margin-left: 200px;
+    margin-top: 100px;
 }
